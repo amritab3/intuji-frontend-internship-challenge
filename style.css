@@ -190,11 +190,14 @@ nav a {
 }
 
 .testimonial-container {
+    padding-bottom: 60px;
+}
+.testimonial-slogan-container {
     display: flex;
-    padding: 80px 150px 80px 150px ;
+    padding: 50px 150px 50px 150px ;
 }
 
-.people-testimonial-container {
+.testimonial-icon-container {
     flex: 1 1 0;
 }
 
@@ -204,3 +207,58 @@ nav a {
     justify-content: flex-end;
     
 }
+
+.testimonial-one-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 1 0;
+
+}
+
+.testimonial-one {
+    width: 600px;
+    border: 2px solid #CFCFCF;
+    border-radius: 10px;
+    position: relative;
+    padding: 30px;
+    display: flex;
+}
+
+.testimonial-one-icon {
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    display: flex;
+}
+
+.testimonial-one-image {
+    display: flex;
+   
+}
+
+.testimonial-two-container {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.testimonial-two {
+    width: 600px;
+    border: 2px solid #CFCFCF;
+    border-radius: 10px;
+    position: relative;
+    padding: 30px 0 30px 30px;
+    display: flex;
+}
+
+.testimonial-two-icon {
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    display: flex;
+}
+
+.testimonial-containers {
+    display: flex;
+}
+
