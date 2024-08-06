@@ -262,3 +262,8 @@ nav a {
     display: flex;
 }
 
+.our-services {
+    display: flex;
+    background-color: #3734A9;
+    color: white ;
+}
