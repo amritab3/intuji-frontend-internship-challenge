@@ -266,4 +266,37 @@ nav a {
     display: flex;
     background-color: #3734A9;
     color: white ;
+    padding: 20px;
+}
+
+.blog-first-row {
+   display: flex;
+   padding-bottom:50px ;
+} 
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px 50px 150px ;
+
+}
+
+
+.blog-image-one {
+    display: flex;
+
+}
+
+.blogs-best-practices {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+.blog-first, .blog-second, .blog-third{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2px;
 }
