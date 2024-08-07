@@ -368,3 +368,60 @@ nav a {
     cursor: pointer;
     
 }
+
+.discovery-container {
+    background-color: #3734A9;
+    padding: 0px 150px 50px 150px ;
+    margin: 0 150px 0 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40vh;
+    gap: 20px;
+    
+}
+
+.top-svg-icon-1 {
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+.svg-icon-2 {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+.svg-icon-3 {
+    position: absolute;
+    bottom: 80px;
+    left: 350px;
+}
+
+.svg-icon-4 {
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+}
+
+.svg-icon-5 {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+
+.custom-button-one {
+    background-color: #ff7f50;
+    color: white;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
