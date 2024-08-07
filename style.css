@@ -284,6 +284,7 @@ nav a {
 
 .blog-image-one {
     display: flex;
+    
 
 }
 
@@ -299,4 +300,71 @@ nav a {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 2px;
+}
+
+.faq-container {
+    position: relative;
+
+}
+
+.faq-title {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 50px 0px 50px 150px ;
+}
+
+.faq-icon-one {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.faq-icon-two {
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+}
+
+.frequently-asked-questions-wrapper {
+ display: flex;
+}
+
+.frequently-asked-questions {
+    padding: 0px 150px 50px 150px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+
+}
+
+.frequently-asked-ques-one, .frequently-asked-ques-two, .frequently-asked-ques-three, .frequently-asked-ques-four, .frequently-asked-ques-five {
+    border: 2px solid #CFCFCF;
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.more-ques-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 40px 20px;
+    border: 2px solid #CFCFCF;
+    border-radius: 10px;
+    width: 300px;
+    gap: 30px;
+}
+
+.custom-button {
+    background-color: #ff7f50;
+    color: white;
+    width: 260px;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    
 }
