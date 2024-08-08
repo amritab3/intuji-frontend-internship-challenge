@@ -372,7 +372,7 @@ nav a {
 .discovery-container {
     background-color: #3734A9;
     padding: 0px 150px 50px 150px ;
-    margin: 0 150px 0 150px;
+    margin: 0 150px 50px 150px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -424,4 +424,72 @@ nav a {
     font-size: 16px;
     cursor: pointer;
     
+}
+
+/* footer section */
+
+.footer {
+    padding: 50px 150px 50px 150px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+    
+}
+
+.footer-section h2, .footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    margin: 15px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 15px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.social-icons {
+    row-gap: 4px;
+}
+
+.social-icons a {
+    margin-right: 20px;
+}
+
+.custom-subscribe-button {
+    background-color: #3734A9;
+    color: white;
+    width: 120px;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 160px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #EEEEEE;
+    color: black;
 }
