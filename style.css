@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-    
 }
 
 .header-wrapper {
@@ -20,7 +19,6 @@ body {
     margin: 0 auto;
     background-color: #BCE1EF;
     margin-bottom: 50px;
-
 }
 
 .logo {
@@ -63,27 +61,26 @@ nav a {
 
 .slogan-part {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
 }
 
 .slogan-svg-one {
     position: absolute;
     right: 0px;
+    top: 0px;
 }
 
-.slogan-svg-two {
+/* .slogan-svg-two {
     position: absolute;
     right: -40px;
-    top: 255px;
-
-}
+    bottom: 0px;
+} */
 
 .slogan-svg-three {
     position: absolute;
     left: -20px;
     bottom: 50px;
-
 }
 
 
@@ -91,8 +88,6 @@ nav a {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    
-
 }
 
 .partners-container {
@@ -101,7 +96,6 @@ nav a {
     align-items: center;
     background-color: #F5F6F8;
     padding-bottom: 20px;
-
 }
 
 .partners {
@@ -115,18 +109,46 @@ nav a {
     height: 40px;
 }
 
-.body-container {
+.portfolio-tracking-container {
     padding: 10px 150px 10px 150px ;
 }
+
 
 .first-row {
     display: flex;
     padding: 30px 0 30px 0;
+}
 
+.display-flex {
+    display: flex !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.direction-row {
+    flex-direction: row !important;
+}
+
+.direction-column {
+    flex-direction: column !important;
 }
 
 .item-grow-shrink {
     flex: 1 1 0;
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.padding-0 {
+    padding: 0 !important;
 }
 
 .first-row-first {
@@ -145,7 +167,6 @@ nav a {
     border-radius: 20px;
     position: relative;
     padding: 30px;
-
 }
 
 .quote-icon {
@@ -234,14 +255,12 @@ nav a {
     flex: 1 1 0;
     display: flex;
     justify-content: flex-end;
-    
 }
 
 .testimonial-one-container {
     display: flex;
     justify-content: space-evenly;
     flex: 1 1 0;
-
 }
 
 .testimonial-one {
@@ -251,6 +270,8 @@ nav a {
     position: relative;
     padding: 30px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .testimonial-one-icon {
@@ -262,13 +283,11 @@ nav a {
 
 .testimonial-one-image {
     display: flex;
-   
 }
 
 .testimonial-two-container {
     display: flex;
     justify-content: flex-start;
-
 }
 
 .testimonial-two {
@@ -278,6 +297,8 @@ nav a {
     position: relative;
     padding: 30px 0 30px 30px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .testimonial-two-icon {
@@ -285,6 +306,11 @@ nav a {
     top: -20px;
     left: 30px;
     display: flex;
+}
+
+.testimonial-two-image {
+    position: absolute;
+    right: 0;
 }
 
 .testimonial-containers {
@@ -301,47 +327,57 @@ nav a {
 
 .services-icon {
     position: absolute;
-    right: -5px;
+    right: 2px;
     top: 0px;
-
 }
 
 .blog-first-row {
    display: flex;
-   padding-bottom:50px ;
-} 
+   padding-bottom: 50px;
+   justify-content: space-between;
+}
+
+.first-best-practice {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-image-one {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+}
+
 
 .blog-container {
     display: flex;
     flex-direction: column;
     padding: 50px 150px 50px 150px ;
-
-}
-
-
-.blog-image-one {
-    display: flex;
-    
-
 }
 
 .blogs-best-practices {
     display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-    position: relative;
+    align-items: stretch;
 }
 
-.blog-first, .blog-second, .blog-third{
+.blog-first, .blog-second, .blog-third {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-bottom: 2px;
 }
 
+.blog-first > *, .blog-second > *, .blog-third > * {
+    flex: 1 1 0;
+}
+
+.blog-first > h5, .blog-second > h5, .blog-third > h5 {
+    text-transform: uppercase;
+}
+
+
 .faq-container {
     position: relative;
-
 }
 
 .faq-title {
@@ -372,7 +408,11 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 20PX;
+}
 
+.faq-question {
+    display: flex;
+    justify-content: space-between;
 }
 
 .frequently-asked-ques-one, .frequently-asked-ques-two, .frequently-asked-ques-three, .frequently-asked-ques-four, .frequently-asked-ques-five {
@@ -403,7 +443,6 @@ nav a {
     padding: 20px;
     font-size: 18px;
     cursor: pointer;
-    
 }
 
 .discover-container {
@@ -418,7 +457,6 @@ nav a {
     position: relative;
     height: 40vh;
     gap: 20px;
-    
 }
 
 .top-svg-icon-1 {
@@ -460,7 +498,6 @@ nav a {
     padding: 16px;
     font-size: 16px;
     cursor: pointer;
-    
 }
 
 /* footer section */
@@ -474,7 +511,6 @@ nav a {
 .footer-section {
     flex: 1;
     margin: 0 10px;
-    
 }
 
 .footer-section h2, .footer-section h3 {
@@ -497,7 +533,6 @@ nav a {
 .footer-section ul li a {
     text-decoration: none;
     color: #000;
-    
 }
 
 .social-icons {
@@ -517,7 +552,6 @@ nav a {
     margin: 8px 0;
     font-size: 14px;
     cursor: pointer;
-    
 }
 
 input[type=email] {
@@ -546,7 +580,6 @@ input[type=email] {
     margin-right: 50px;
     font-size: 14px;
     cursor: pointer;
-    
 }
 
 .points {
@@ -576,13 +609,11 @@ input[type=email] {
 
 .why-choose-us-container {
     display: flex;
-    flex-direction: column;
-    padding: 80px 150px 80px 150px ;
-    
-
+    padding: 80px 150px 80px 150px;
 }
 
 .why-choose-us {
+    flex: 1 1 0;
     margin-bottom: 20px;
 }
 
@@ -596,7 +627,6 @@ input[type=email] {
     border-radius: 20px;
     position: relative;
     padding: 30px;
-
 }
 
 .reason-icon {
@@ -607,6 +637,7 @@ input[type=email] {
 
 
 .graph-container {
+    flex: 1 1 0;
     background-color: #DBF1FA;
     border: none;
     border-radius: 20px;
@@ -615,15 +646,120 @@ input[type=email] {
     position: relative;
     display: flex;
     justify-content: center;
-
 }
 
-.graph {
+.choose-us-hand {
     position: absolute;
-    top: 180px;
-    left: -180px;
+    bottom: 0px;
+}
+
+.choose-us-graph {
+    position: absolute;
+    left: -200px;
+    bottom: -150px;
 }
 
 
+.payment-tracking-section {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 80px 150px 80px 150px;
+}
 
+.transaction-ss {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
 
+.ss-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #DBF1FA;
+    border-radius: 10px;
+    width: 70%;
+    gap: 20px;
+    position: relative;
+}
+
+.payment-ss {
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    -webkit-box-shadow: 0 0 5px 2px #fff;
+    -moz-box-shadow: 0 0 5px 2px #fff;
+    box-shadow: 0px 1px 3px 0px gray;
+}
+
+.second-payment-ss {
+    margin-left: 170px;
+}
+
+.third-payment-ss {
+    margin-left: 130px;
+}
+
+.transaction-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-detail .amount {
+    background-color: #EBEBF7;
+    color: #3734a9;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.transaction-detail .received-from {
+    color: #a6a4bc;
+}
+
+.tracking-points {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 25px 0 0 0;
+}
+
+.tracking-points i {
+    color: #FDBC64;
+}
+
+.user-avatar-1, .user-avatar-2, .user-avatar-3, .user-avatar-4 {
+    margin-right: 10px;
+}
+
+.orange-svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bubble-svg {
+    position: absolute;
+    top: -30px;
+    right: -20px;
+
+}
+
+.mint-svg {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.blue-svg {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+
+}
