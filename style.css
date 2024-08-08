@@ -574,3 +574,56 @@ input[type=email] {
 
 }
 
+.why-choose-us-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 150px 80px 150px ;
+    
+
+}
+
+.why-choose-us {
+    margin-bottom: 20px;
+}
+
+.why-choose-us-slogan {
+    margin-bottom: 50px;
+}
+
+.reason-container {
+    width: 350px;
+    background-color: #dbd8d8ee;
+    border-radius: 20px;
+    position: relative;
+    padding: 30px;
+
+}
+
+.reason-icon {
+    position: absolute;
+    top: -20px;
+    left: 30px;
+}
+
+
+.graph-container {
+    background-color: #DBF1FA;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.graph {
+    position: absolute;
+    top: 180px;
+    left: -180px;
+}
+
+
+
+
