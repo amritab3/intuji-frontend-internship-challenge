@@ -61,7 +61,9 @@ nav a {
 
 .slogan-part {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 10px 150px 10px 150px ;
+
     position: relative;
 }
 
@@ -81,6 +83,11 @@ nav a {
     position: absolute;
     left: -20px;
     bottom: 50px;
+}
+
+.image-container {
+   position: absolute; 
+   right: 200px;
 }
 
 
@@ -685,6 +692,7 @@ input[type=email] {
     width: 70%;
     gap: 20px;
     position: relative;
+    
 }
 
 .payment-ss {
@@ -696,6 +704,7 @@ input[type=email] {
     -webkit-box-shadow: 0 0 5px 2px #fff;
     -moz-box-shadow: 0 0 5px 2px #fff;
     box-shadow: 0px 1px 3px 0px gray;
+    z-index: 1;
 }
 
 .second-payment-ss {
@@ -747,6 +756,7 @@ input[type=email] {
     position: absolute;
     top: -30px;
     right: -20px;
+    z-index: 1;
 
 }
 
@@ -759,7 +769,7 @@ input[type=email] {
 
 .blue-svg {
     position: absolute;
-    top: 50px;
+    top: 70px;
     right: 0px;
 
 }
