@@ -267,6 +267,14 @@ nav a {
     background-color: #3734A9;
     color: white ;
     padding: 20px;
+    position: relative;
+}
+
+.services-icon {
+    position: absolute;
+    right: -5px;
+    top: 0px;
+
 }
 
 .blog-first-row {
@@ -369,7 +377,7 @@ nav a {
     
 }
 
-.discovery-container {
+.discover-container {
     background-color: #3734A9;
     padding: 0px 150px 50px 150px ;
     margin: 0 150px 50px 150px;
