@@ -232,7 +232,6 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 20vh;
 }
 
 .feature-third, .feature-forth {
